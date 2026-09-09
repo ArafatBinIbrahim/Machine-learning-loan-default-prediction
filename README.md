@@ -90,3 +90,17 @@ Jupyter Notebook: Launch Jupyter to explore the step-by-step pipeline:
 Bash
 jupyter notebook notebooks/loan_default_analysis.ipynb
 Google Colab: Alternatively, upload 14.csv and the .ipynb notebook to Google Colab and execute cells sequentially after mounting Google Drive.
+
+
+
+### 💡 Tips for GitHub Upload:
+1. Create a new repository on GitHub named `loan-default-prediction-ml`.
+2. Organize your local files into folders matching the structure above (`data/`, `notebooks/`, `reports/`).
+3. Commit and push your code using Git commands:
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit: Add enterprise-level README, notebook, and dataset"
+   git branch -M main
+   git remote add origin https://github.com/your-username/loan-default-prediction-ml.git
+   git push -u origin main
